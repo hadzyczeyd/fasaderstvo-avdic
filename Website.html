@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fasaderstvo Avdić</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="title" content="Fasaderstvo Avdic">
+    <meta name="description" content="Fasaderstvo Avdić Specijalisti za moleraj. Pouzdani i profesionalni fasaderski i molerski radovi: Kvalitetna, precizna i brza izrada molerskih radova">
+    <meta name="keywords" content="moleraj, fasaderski i molerski radovi, avdic, fasade, fasaderstvo, fasaderski radovi, gradjevina, gradjevinski radovi, radovi, gradjevinska firma, grbi radovi, molerski radovi, krecenje, fasade, krov">
+    <meta name="robots" content="noindex, nofollow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="author" content="Synergy Design">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        html{
+            scroll-behavior: smooth;
+            
+        }
+        body{
+            font-family: 'Roboto', Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            margin: 0;
+            padding: 0;
+            /* background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='69.141' height='40' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='rgba(255, 255, 255, 1.00)'/><path d='M69.212 40H46.118L34.57 20 46.118 0h23.094l11.547 20zM57.665 60H34.57L23.023 40 34.57 20h23.095l11.547 20zm0-40H34.57L23.023 0 34.57-20h23.095L69.212 0zM34.57 60H11.476L-.07 40l11.547-20h23.095l11.547 20zm0-40H11.476L-.07 0l11.547-20h23.095L46.118 0zM23.023 40H-.07l-11.547-20L-.07 0h23.094L34.57 20z'  stroke-width='1' stroke='%23ba3c1c3e' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>") */
+            /* background-color: white; */
+            background-image: url(https://i.ibb.co/3yXgXN4/bg.png);
+        }
+
+        body::-webkit-scrollbar {
+        width: 0.5rem;
+      }
+
+      
+
+      body::-webkit-scrollbar-track {
+        background-color: #1E1E21;
+      }
+
+      body::-webkit-scrollbar-thumb {
+        background-color: #bb3b1c;
+      }
+    </style>
+    
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                nrn: '#bb3b1c',
+                brn: '#f5c9bf',
+                bg: '#1E1E21',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <nav x-data="{ isOpen: false }"  class=" w-full sticky top-0 bg-bg z-50">
+        <div class="container px-6 py-6 mx-auto lg:flex lg:justify-between lg:items-center">
+            <div class="flex items-center md:h-16 w-auto justify-between">
+                <a href="index.html">
+                    <img class="w-auto md:h-16 h-7" src="https://i.ibb.co/2gfvSzt/Logo2.png" alt="">
+                </a>
+
+                <!-- Mobile menu button -->
+                <div class="flex lg:hidden">
+                    <button x-cloak @click="isOpen = !isOpen" type="button" class="text-white  hover:text-white  focus:outline-none focus:text-white " aria-label="toggle menu">
+                        <svg x-show="!isOpen" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
+                        </svg>
+                
+                        <svg x-show="isOpen" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
+            <div x-cloak :class="[isOpen ? 'translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full']" class="absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-bg shadow-md lg:bg-transparent  lg:shadow-none  lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center">
+                <div class="flex flex-col space-y-8 lg:flex-row lg:items-center lg:space-y-0 lg:-px-8">
+                    <a class="group block font-medium text-white lg:mx-8 " href="#">
+                        <span class="bg-left-bottom md:text-lg bg-gradient-to-r from-nrn to-nrn bg-[length:0%_3px] bg-no-repeat group-hover:bg-[length:100%_3px] transition-all duration-500 ease-out">
+                            Početna
+                        </span>
+                    </a>
+                    <a class="group block font-medium text-white lg:mx-8 " href="#about">
+                        <span class="bg-left-bottom md:text-lg bg-gradient-to-r from-nrn to-nrn bg-[length:0%_3px] bg-no-repeat group-hover:bg-[length:100%_3px] transition-all duration-500 ease-out">
+                            Proces
+                        </span>
+                    </a>
+                    <a class="group block font-medium text-white lg:mx-8 " href="#services">
+                        <span class="bg-left-bottom md:text-lg bg-gradient-to-r from-nrn to-nrn bg-[length:0%_3px] bg-no-repeat group-hover:bg-[length:100%_3px] transition-all duration-500 ease-out">
+                            Usluge
+                        </span>
+                    </a>
+                    <a class="group block font-medium text-white lg:mx-8 " href="#work">
+                        <span class="bg-left-bottom md:text-lg bg-gradient-to-r from-nrn to-nrn bg-[length:0%_3px] bg-no-repeat group-hover:bg-[length:100%_3px] transition-all duration-500 ease-out">
+                            Naš rad
+                        </span>
+                    </a>
+
+                    <a href="#kontakt"><button class="flex items-center md:text-lg justify-center px-5 py-2 text-sm font-medium tracking-wide text-center text-white capitalize transition-colors duration-300 transform bg-gray-700 rounded-lg hover:bg-nrn focus:outline-none focus:bg-gray-600">Kontakt</button>
+                        </a>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="bg-transparent relative" id="home">
+        <div class="container px-6 py-16 mx-auto">
+            <div class="items-center lg:flex">
+                <div class="w-full lg:w-1/2">
+                    <div class="lg:max-w-lg">
+                        <h1 class="text-3xl font-semibold text-white lg:text-4xl">Fasaderstvo <span class="text-nrn">Avdić</span> <br> Specijalisti za moleraj.</h1>
+                        
+                        <p class="mt-3 text-xl text-white ">Pouzdani i profesionalni fasaderski i molerski radovi: 
+                            <ul class="list-disc text-white p-4">
+                                <li>Kvalitetna, precizna i brza izrada molerskih radova</li>
+                                <li>Najbolji primjeri iz prakse</li>
+                                <li>Dugogodišnje iskustvo</li>
+                                <li>I još mnogo toga...</li>
+                            </ul>
+                        </p>
+                        
+                        <a href="#kontakt"><button class="w-full px-5 py-2 mt-6 text-sm md:text-lg font-medium tracking-wider text-white uppercase transition-colors duration-300 transform bg-gray-700 rounded-lg lg:w-auto hover:bg-nrn focus:outline-none focus:bg-blue-500">Kontakt</button></a>
+                    </div>
+                </div>
+    
+                <div class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
+                    <img class="w-3/4 h-3/4 rounded-tr-[40%] rounded-bl-[40%] lg:max-w-3xl" src="https://i.ibb.co/vLYspvg/Slika1.jpg" alt="Fasada">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-transparent" id="about">
+        <div class="container px-6 py-10 mx-auto">
+            <h1 class="text-2xl font-semibold text-center text-white capitalize md:text-3xl ">Proces radova</span></h1>
+    
+            <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3">
+                <div class="flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 rounded-xl hover:scale-90 pointer duration-500 transition-all border">
+                    <span class="inline-block p-3 text-blue-500 bg-brn rounded-full  ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(155, 49, 23);transform: ;msFilter:;"><path d="m12 17 1-2V9.858c1.721-.447 3-2 3-3.858 0-2.206-1.794-4-4-4S8 3.794 8 6c0 1.858 1.279 3.411 3 3.858V15l1 2z"></path><path d="m16.267 10.563-.533 1.928C18.325 13.207 20 14.584 20 16c0 1.892-3.285 4-8 4s-8-2.108-8-4c0-1.416 1.675-2.793 4.267-3.51l-.533-1.928C4.197 11.54 2 13.623 2 16c0 3.364 4.393 6 10 6s10-2.636 10-6c0-2.377-2.197-4.46-5.733-5.437z"></path></svg>
+                    </span>
+    
+                    <h1 class="text-xl font-semibold text-gray-700 capitalize ">Pregled Objekta</h1>
+    
+                    <p class="text-gray-500 ">
+                        Objasnite nam detalje, vaše želje i zahtjeve. Zatim ćemo pripremiti ponudu i predviđeni datum implementacije.
+                    </p>
+                </div>
+    
+                <div class="flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 rounded-xl hover:scale-90 pointer duration-500 transition-all border">
+                    <span class="inline-block p-3 text-blue-500 bg-brn rounded-full  ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(155, 49, 23);transform: ;msFilter:;"><path d="M21 15a9.11 9.11 0 0 0-.18-1.81 8.53 8.53 0 0 0-.53-1.69 8.08 8.08 0 0 0-.83-1.5 8.73 8.73 0 0 0-1.1-1.33A8.27 8.27 0 0 0 17 7.54a8.08 8.08 0 0 0-1.53-.83L15 6.52V5a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v1.52l-.5.19a8.08 8.08 0 0 0-1.5.83 8.27 8.27 0 0 0-1.33 1.1A8.27 8.27 0 0 0 4.54 10a8.08 8.08 0 0 0-.83 1.53 9 9 0 0 0-.53 1.69A9.11 9.11 0 0 0 3 15v3H2v2h20v-2h-1zM5 15a7.33 7.33 0 0 1 .14-1.41 6.64 6.64 0 0 1 .41-1.31 7.15 7.15 0 0 1 .64-1.19 7.15 7.15 0 0 1 1.9-1.9A7.33 7.33 0 0 1 9 8.68V15h2V6h2v9h2V8.68a8.13 8.13 0 0 1 .91.51 7.09 7.09 0 0 1 1 .86 6.44 6.44 0 0 1 .85 1 6 6 0 0 1 .65 1.19 7.13 7.13 0 0 1 .41 1.31A7.33 7.33 0 0 1 19 15v3H5z"></path></svg>
+                    </span>
+    
+                    <h1 class="text-xl font-semibold text-gray-700 capitalize ">Početak radova</h1>
+    
+                    <p class="text-gray-500 ">
+                        Dovozimo i uređujemo svu potrebnu opremu i resurse za izradu ugovorene usluge.
+                    </p>
+    
+                </div>
+    
+                <div class="flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 rounded-xl  hover:scale-90 pointer duration-500 transition-all border">
+                    <span class="inline-block p-3 text-blue-500 bg-brn rounded-full ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(155, 49, 23);transform: ;msFilter:;"><path d="M12 18c4 0 5-4 5-4H7s1 4 5 4z"></path><path d="M12 22c5.514 0 10-4.486 10-10S17.514 2 12 2 2 6.486 2 12s4.486 10 10 10zm0-18c4.411 0 8 3.589 8 8s-3.589 8-8 8-8-3.589-8-8 3.589-8 8-8z"></path><path d="m8.535 12.634 2.05-2.083a1.485 1.485 0 0 0-.018-2.118 1.49 1.49 0 0 0-2.065-.034 1.488 1.488 0 0 0-2.067.068c-.586.6-.579 1.53.019 2.117l2.081 2.05zm7 0 2.05-2.083a1.485 1.485 0 0 0-.018-2.118 1.49 1.49 0 0 0-2.065-.034 1.488 1.488 0 0 0-2.068.067c-.586.6-.579 1.53.019 2.117l2.082 2.051z"></path></svg>
+                    </span>
+    
+                    <h1 class="text-xl font-semibold text-gray-700 capitalize ">Pregled radova</h1>
+    
+                    <p class="text-gray-500 ">
+                        Sa Vama pregledamo izvedene radove i uvjeravamo se da ste zadovoljni izvođenjem.
+                    </p>
+    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-transparent" id="services">
+        <div class="container px-6 py-10 mx-auto">
+            <h1 class="text-2xl font-semibold text-center text-white capitalize md:text-3xl">Usluge</span></h1>
+    <br>
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
+                <div>
+                    <img class="object-cover object-center w-full h-64 rounded-lg lg:h-80" src="https://i.ibb.co/MMd6ZYt/moleraj.jpg" alt="">
+    
+                    <div class="mt-8">
+                        <h1 class="mt-4 text-xl font-semibold text-white ">
+                            Moleraj
+                        </h1>
+    
+                        <p class="mt-2 text-white ">
+                            Izvodimo sve vrste molerskih uz maksimalno pridržavanje dogovorenih rokova.
+                        </p>
+                    </div>
+                </div>
+    
+                <div>
+                    <img class="object-cover object-center w-full h-64 rounded-lg lg:h-80" src="https://i.ibb.co/5nhH4hw/fasade.jpg" alt="">
+    
+                    <div class="mt-8">
+
+                        <h1 class="mt-4 text-xl font-semibold text-white ">
+                            Fasade</h1>
+    
+                        <p class="mt-2 text-white ">
+                            Zaključni radovi u građevinarstvu.
+                        </p>
+    
+                    </div>
+                </div>
+    
+                <div>
+                    <img class="object-cover object-center w-full h-64 rounded-lg lg:h-80" src="https://i.ibb.co/zH76zK6/grubi-radovi.jpg" alt="">
+    
+                    <div class="mt-8">
+                        <h1 class="mt-4 text-xl font-semibold text-white ">
+                            Grubi radovi
+                        </h1>
+    
+                        <p class="mt-2 text-white ">
+                            Delatnost projektiranja, organiziranja i izvođenja građevinskih radova visoke i niske gradnje.
+                        </p>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="" id="work">
+        <div class="container px-6 py-10 mx-auto">
+            <h1 class="text-2xl font-semibold text-center text-white capitalize lg:text-3xl 
+            ">Naši radovi</h1>
+    
+            <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 lg:grid-cols-2">
+                <div class="flex items-end overflow-hidden bg-cover rounded-lg h-96" style="background-image:url('https://i.ibb.co/YyKV9mD/rad1.jpg')"></div>
+                <div class="flex items-end overflow-hidden bg-cover rounded-lg h-96" style="background-image:url('https://i.ibb.co/bXjRjjM/rad2.jpg')"></div>
+                <div class="flex items-end overflow-hidden bg-cover rounded-lg h-96" style="background-image:url('https://i.ibb.co/hVmjzSV/rad3.jpg')"></div>
+                <div class="flex items-end overflow-hidden bg-cover rounded-lg h-96" style="background-image:url('https://i.ibb.co/26vqSfC/rad4.jpg')"></div>
+            </div>
+        </div>
+    </section>
+    <section class="text-gray-600 body-font relative" id="kontakt">
+        <div class="absolute inset-0 bg-gray-300">
+          <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://www.google.com/maps/embed/v1/place?q=Pavla+Goranina+Ilije+114,+75000+Tuzla,+Bosnia+and+Herzegovina&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+        </div>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="subject" value="Nova poruka sa web stranice">
+            <!-- <input type="hidden" name="redirect" value="https://fasaderstvo-avdic.ba/hvala.html"> -->
+            <input type="hidden" name="access_key" value="03a63275-045b-48bf-b6ad-cd509020f035">
+            <div class="container px-5 py-24 mx-auto flex">
+                <div class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+                  <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Kontaktirajte nas</h2>
+                  <p class="leading-relaxed mb-5 text-gray-600">Pošaljite nam poruku ili nazovite na: <span class="underline decoration-nrn text-nrn"> 066/804-024</span></p>
+                  <div class="relative mb-4">
+                    <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                    <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  </div>
+                  <div class="relative mb-4">
+                    <label for="message" class="leading-7 text-sm text-gray-600">Poruka</label>
+                    <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                  </div>
+                  <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Pošalji</button>
+                </div>
+              </div>
+        </form>
+        
+      </section>
+
+      <footer class="text-white bg-zinc-900 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+            <span class="ml-3 text-xl text-white">Fasaderstvo <span class="text-nrn"> Avdić</span></span>
+          </a>
+          <p class="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024 Website:
+            <a href="https://synergydesign.io" class="text-nrn text-lg font-medium" rel="noopener noreferrer" target="_blank">Synergy Design</a>
+          </p>
+        </div>
+      </footer>
+</body>
+</html>
