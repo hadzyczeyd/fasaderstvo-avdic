@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fasaderstvo Avdić</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="title" content="Fasaderstvo Avdic">
+    <meta name="description" content="Fasaderstvo Avdić Specijalisti za moleraj. Pouzdani i profesionalni fasaderski i molerski radovi: Kvalitetna, precizna i brza izrada molerskih radova">
+    <meta name="keywords" content="moleraj, fasaderski i molerski radovi, avdic, fasade, fasaderstvo, fasaderski radovi, gradjevina, gradjevinski radovi, radovi, gradjevinska firma, grbi radovi, molerski radovi, krecenje, fasade, krov">
+    <meta name="robots" content="noindex, nofollow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="author" content="Synergy Design">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        html{
+            scroll-behavior: smooth;
+            
+        }
+        body{
+            font-family: 'Roboto', Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            margin: 0;
+            padding: 0;
+            /* background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='69.141' height='40' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='rgba(255, 255, 255, 1.00)'/><path d='M69.212 40H46.118L34.57 20 46.118 0h23.094l11.547 20zM57.665 60H34.57L23.023 40 34.57 20h23.095l11.547 20zm0-40H34.57L23.023 0 34.57-20h23.095L69.212 0zM34.57 60H11.476L-.07 40l11.547-20h23.095l11.547 20zm0-40H11.476L-.07 0l11.547-20h23.095L46.118 0zM23.023 40H-.07l-11.547-20L-.07 0h23.094L34.57 20z'  stroke-width='1' stroke='%23ba3c1c3e' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>") */
+            /* background-color: white; */
+            background-image: url(bg.png);
+        }
+    </style>
+    
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                nrn: '#bb3b1c',
+                brn: '#f5c9bf',
+                bg: '#1E1E21',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <nav x-data="{ isOpen: false }"  class=" w-full sticky top-0 bg-zinc-900 z-50">
+        <div class="container px-6 py-6 mx-auto lg:flex lg:justify-between lg:items-center">
+            <div class="flex items-center md:h-16 w-auto justify-between">
+                <a href="index.html">
+                    <img class="w-auto md:h-16 h-7" src="Logo2.png" alt="">
+                </a>
+
+                <!-- Mobile menu button -->
+                <div class="flex lg:hidden">
+                    <button x-cloak @click="isOpen = !isOpen" type="button" class="text-white  hover:text-white  focus:outline-none focus:text-white " aria-label="toggle menu">
+                        <svg x-show="!isOpen" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
+                        </svg>
+                
+                        <svg x-show="isOpen" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
+            <div x-cloak :class="[isOpen ? 'translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full']" class="absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white shadow-md lg:bg-transparent  lg:shadow-none  lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center">
+                <div class="flex flex-col space-y-8 lg:flex-row lg:items-center lg:space-y-0 lg:-px-8">
+                    <a class="group block font-medium text-white lg:mx-8 " href="index.html#">
+                        <span class="bg-left-bottom md:text-lg bg-gradient-to-r from-nrn to-nrn bg-[length:0%_3px] bg-no-repeat group-hover:bg-[length:100%_3px] transition-all duration-500 ease-out">
+                            Početna
+                        </span>
+                    </a>
+                    <a class="group block font-medium text-white lg:mx-8 " href="index.html#about">
+                        <span class="bg-left-bottom md:text-lg bg-gradient-to-r from-nrn to-nrn bg-[length:0%_3px] bg-no-repeat group-hover:bg-[length:100%_3px] transition-all duration-500 ease-out">
+                            Proces
+                        </span>
+                    </a>
+                    <a class="group block font-medium text-white lg:mx-8 " href="index.html#services">
+                        <span class="bg-left-bottom md:text-lg bg-gradient-to-r from-nrn to-nrn bg-[length:0%_3px] bg-no-repeat group-hover:bg-[length:100%_3px] transition-all duration-500 ease-out">
+                            Usluge
+                        </span>
+                    </a>
+                    <a class="group block font-medium text-white lg:mx-8 " href="index.html#work">
+                        <span class="bg-left-bottom md:text-lg bg-gradient-to-r from-nrn to-nrn bg-[length:0%_3px] bg-no-repeat group-hover:bg-[length:100%_3px] transition-all duration-500 ease-out">
+                            Naš rad
+                        </span>
+                    </a>
+
+                    <a href="index.html#kontakt"><button class="flex items-center md:text-lg justify-center px-5 py-2 text-sm font-medium tracking-wide text-center text-white capitalize transition-colors duration-300 transform bg-gray-700 rounded-lg hover:bg-nrn focus:outline-none focus:bg-gray-600">Kontakt</button>
+                        </a>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="bg-transparent relative" id="home">
+        
+    
+        <div class="container px-6 py-16 mx-auto">
+            <div class="items-center lg:flex">
+                <div class="w-full lg:w-1/2">
+                    <div class="lg:max-w-lg">
+                        <h1 class="text-3xl font-semibold text-white lg:text-4xl">Poruka uspješno poslana, <br> trudimo se da odgovorimo u najkraćem roku.</h1>
+                        
+                        <a href="index.html"><button class="w-full px-5 py-2 mt-6 text-sm md:text-lg font-medium tracking-wider text-white uppercase transition-colors duration-300 transform bg-gray-700 rounded-lg lg:w-auto hover:bg-nrn focus:outline-none focus:bg-blue-500">Nazad</button></a>
+                    </div>
+                </div>
+    
+                <div class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
+                    <img class="w-3/4 h-3/4 rounded-tr-[40%] rounded-bl-[40%] lg:max-w-3xl" src="Slika1.jpg" alt="Fasada">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+
+      <footer class="text-white bg-zinc-900 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+            <span class="ml-3 text-xl text-white">Fasaderstvo <span class="text-nrn"> Avdić</span></span>
+          </a>
+          <p class="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024 Website:
+            <a href="https://synergydesign.io" class="text-nrn text-lg font-medium" rel="noopener noreferrer" target="_blank">Synergy Design</a>
+          </p>
+        </div>
+      </footer>
+</body>
+</html>
